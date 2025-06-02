@@ -4,8 +4,8 @@ import lombok.Getter;
 
 @Getter
 public enum DeviceType {
-    MOBILE(1, "Mobile"),
-    DESKTOP(2, "Desktop");
+    MOBILE(0, "Mobile"),
+    DESKTOP(1, "Desktop");
 
     private final int code;
     private final String description;
